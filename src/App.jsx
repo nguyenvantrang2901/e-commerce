@@ -1,12 +1,17 @@
 import './App.css'
-import Hello from '@components/Hello/Hello'
+import Footer from '@components/Footer/Footer'
+import Header from '@components/Header/Header'
+import Layout from '@components/Layout/Layout'
 
 function App() {
 
   return (
     <div className="App">
-      <h1>Website bán hàng</h1>
-      <Hello/>
+      <Layout>
+        <Header/>
+          Content body
+        <Footer/>
+      </Layout>
     </div>
   )
 }

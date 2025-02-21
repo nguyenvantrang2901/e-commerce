@@ -1,0 +1,10 @@
+// code dùng chung
+// có thể tái sử dụng 
+// có thể thay đổi đc
+
+// radius_common: đặt tên
+//$radius: tên thuộc tính
+// 10px: mặc định là 10px nếu ko truyển vào giá trị
+@mixin radius_common ($radius: 10px) {
+    border-radius: $radius;
+}
